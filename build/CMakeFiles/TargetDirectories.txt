@@ -1,0 +1,3 @@
+/home/kofta/dev/OpenGL_renderer/build/CMakeFiles/OpenGL_renderer.dir
+/home/kofta/dev/OpenGL_renderer/build/CMakeFiles/edit_cache.dir
+/home/kofta/dev/OpenGL_renderer/build/CMakeFiles/rebuild_cache.dir
