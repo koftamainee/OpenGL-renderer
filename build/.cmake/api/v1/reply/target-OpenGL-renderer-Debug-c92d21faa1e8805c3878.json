@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "OpenGL_renderer"
+			"path" : "OpenGL-renderer"
 		}
 	],
 	"backtrace" : 1,
@@ -65,7 +65,7 @@
 			]
 		}
 	],
-	"id" : "OpenGL_renderer::@6890427a1f51a3e7e1df",
+	"id" : "OpenGL-renderer::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -86,8 +86,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "OpenGL_renderer",
-	"nameOnDisk" : "OpenGL_renderer",
+	"name" : "OpenGL-renderer",
+	"nameOnDisk" : "OpenGL-renderer",
 	"paths" : 
 	{
 		"build" : ".",

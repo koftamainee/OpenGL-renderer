@@ -1,16 +1,4 @@
 # ninja log v6
-2	69	1718894254647656237	CMakeFiles/OpenGL_renderer.dir/main.cpp.o	7d8d4d1cb25fd9a8
-2	199	1718893197872478624	CMakeFiles/OpenGL_renderer.dir/glad/glad.c.o	79b8889cf8c67211
-606	696	1718899326541483715	OpenGL_renderer	b41f8bd2f8615455
-2	606	1718899325934826137	CMakeFiles/OpenGL_renderer.dir/src/main.cpp.o	cd341fb59c5287f6
-2	192	1718894483925986146	CMakeFiles/OpenGL_renderer.dir/libs/glad/glad.c.o	ff4199b61135c356
-3	592	1718900230623314603	CMakeFiles/OpenGL_renderer.dir/src/main.cpp.o	cd341fb59c5287f6
-592	673	1718900231213323472	OpenGL_renderer	b41f8bd2f8615455
-3	682	1718900946850056452	CMakeFiles/OpenGL_renderer.dir/src/main.cpp.o	cd341fb59c5287f6
-682	781	1718900947530055271	OpenGL_renderer	b41f8bd2f8615455
-5	599	1718908220239262605	CMakeFiles/OpenGL_renderer.dir/src/main.cpp.o	cd341fb59c5287f6
-599	694	1718908220832569813	OpenGL_renderer	b41f8bd2f8615455
-3	555	1718908238521801046	CMakeFiles/OpenGL_renderer.dir/src/main.cpp.o	cd341fb59c5287f6
-555	639	1718908239075110639	OpenGL_renderer	b41f8bd2f8615455
-3	583	1718908260274215164	CMakeFiles/OpenGL_renderer.dir/src/main.cpp.o	cd341fb59c5287f6
-583	668	1718908260854191037	OpenGL_renderer	b41f8bd2f8615455
+1	311	1718948996005416292	CMakeFiles/OpenGL-renderer.dir/libs/glad/glad.c.o	a6f7a9a13e8d7750
+1	982	1718948996005416292	CMakeFiles/OpenGL-renderer.dir/src/main.cpp.o	59742fece15b8fdd
+984	1130	1718948996988538823	OpenGL-renderer	aad92d82b196bcde

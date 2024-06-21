@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/kofta/dev/OpenGL_renderer/build"
+			"value" : "/home/kofta/dev/OpenGL-renderer/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/kofta/dev/OpenGL_renderer/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/kofta/dev/OpenGL-renderer/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -599,7 +599,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/kofta/dev/OpenGL_renderer"
+			"value" : "/home/kofta/dev/OpenGL-renderer"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -843,7 +843,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "OpenGL_renderer"
+			"value" : "OpenGL-renderer"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1202,7 +1202,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "OpenGL_renderer_BINARY_DIR",
+			"name" : "OpenGL-renderer_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1211,10 +1211,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/kofta/dev/OpenGL_renderer/build"
+			"value" : "/home/kofta/dev/OpenGL-renderer/build"
 		},
 		{
-			"name" : "OpenGL_renderer_IS_TOP_LEVEL",
+			"name" : "OpenGL-renderer_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1226,7 +1226,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "OpenGL_renderer_SOURCE_DIR",
+			"name" : "OpenGL-renderer_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1235,7 +1235,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/kofta/dev/OpenGL_renderer"
+			"value" : "/home/kofta/dev/OpenGL-renderer"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

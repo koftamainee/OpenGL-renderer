@@ -1,4 +1,4 @@
-# Install script for directory: /home/kofta/dev/OpenGL_renderer
+# Install script for directory: /home/kofta/dev/OpenGL-renderer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kofta/dev/OpenGL_renderer/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kofta/dev/OpenGL-renderer/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

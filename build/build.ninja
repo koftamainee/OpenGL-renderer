@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: OpenGL_renderer
+# Project: OpenGL-renderer
 # Configurations: Debug
 # =============================================================================
 
@@ -39,51 +39,51 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/kofta/dev/OpenGL_renderer/build/
+cmake_ninja_workdir = /home/kofta/dev/OpenGL-renderer/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target OpenGL_renderer
+# Object build statements for EXECUTABLE target OpenGL-renderer
 
 
 #############################################
-# Order-only phony target for OpenGL_renderer
+# Order-only phony target for OpenGL-renderer
 
-build cmake_object_order_depends_target_OpenGL_renderer: phony || .
+build cmake_object_order_depends_target_OpenGL-renderer: phony || .
 
-build CMakeFiles/OpenGL_renderer.dir/src/main.cpp.o: CXX_COMPILER__OpenGL_renderer_unscanned_Debug /home/kofta/dev/OpenGL_renderer/src/main.cpp || cmake_object_order_depends_target_OpenGL_renderer
-  DEP_FILE = CMakeFiles/OpenGL_renderer.dir/src/main.cpp.o.d
+build CMakeFiles/OpenGL-renderer.dir/src/main.cpp.o: CXX_COMPILER__OpenGL-renderer_unscanned_Debug /home/kofta/dev/OpenGL-renderer/src/main.cpp || cmake_object_order_depends_target_OpenGL-renderer
+  DEP_FILE = CMakeFiles/OpenGL-renderer.dir/src/main.cpp.o.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/OpenGL_renderer.dir
-  OBJECT_FILE_DIR = CMakeFiles/OpenGL_renderer.dir/src
+  OBJECT_DIR = CMakeFiles/OpenGL-renderer.dir
+  OBJECT_FILE_DIR = CMakeFiles/OpenGL-renderer.dir/src
 
-build CMakeFiles/OpenGL_renderer.dir/libs/glad/glad.c.o: C_COMPILER__OpenGL_renderer_unscanned_Debug /home/kofta/dev/OpenGL_renderer/libs/glad/glad.c || cmake_object_order_depends_target_OpenGL_renderer
-  DEP_FILE = CMakeFiles/OpenGL_renderer.dir/libs/glad/glad.c.o.d
+build CMakeFiles/OpenGL-renderer.dir/libs/glad/glad.c.o: C_COMPILER__OpenGL-renderer_unscanned_Debug /home/kofta/dev/OpenGL-renderer/libs/glad/glad.c || cmake_object_order_depends_target_OpenGL-renderer
+  DEP_FILE = CMakeFiles/OpenGL-renderer.dir/libs/glad/glad.c.o.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/OpenGL_renderer.dir
-  OBJECT_FILE_DIR = CMakeFiles/OpenGL_renderer.dir/libs/glad
+  OBJECT_DIR = CMakeFiles/OpenGL-renderer.dir
+  OBJECT_FILE_DIR = CMakeFiles/OpenGL-renderer.dir/libs/glad
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target OpenGL_renderer
+# Link build statements for EXECUTABLE target OpenGL-renderer
 
 
 #############################################
-# Link the executable OpenGL_renderer
+# Link the executable OpenGL-renderer
 
-build OpenGL_renderer: CXX_EXECUTABLE_LINKER__OpenGL_renderer_Debug CMakeFiles/OpenGL_renderer.dir/src/main.cpp.o CMakeFiles/OpenGL_renderer.dir/libs/glad/glad.c.o
+build OpenGL-renderer: CXX_EXECUTABLE_LINKER__OpenGL-renderer_Debug CMakeFiles/OpenGL-renderer.dir/src/main.cpp.o CMakeFiles/OpenGL-renderer.dir/libs/glad/glad.c.o
   FLAGS = -g
   LINK_LIBRARIES = -lglfw
-  OBJECT_DIR = CMakeFiles/OpenGL_renderer.dir
+  OBJECT_DIR = CMakeFiles/OpenGL-renderer.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = OpenGL_renderer
-  TARGET_PDB = OpenGL_renderer.dbg
+  TARGET_FILE = OpenGL-renderer
+  TARGET_PDB = OpenGL-renderer.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/kofta/dev/OpenGL_renderer/build && /usr/bin/ccmake -S/home/kofta/dev/OpenGL_renderer -B/home/kofta/dev/OpenGL_renderer/build
+  COMMAND = cd /home/kofta/dev/OpenGL-renderer/build && /usr/bin/ccmake -S/home/kofta/dev/OpenGL-renderer -B/home/kofta/dev/OpenGL-renderer/build
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -95,7 +95,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/kofta/dev/OpenGL_renderer/build && /usr/bin/cmake --regenerate-during-build -S/home/kofta/dev/OpenGL_renderer -B/home/kofta/dev/OpenGL_renderer/build
+  COMMAND = cd /home/kofta/dev/OpenGL-renderer/build && /usr/bin/cmake --regenerate-during-build -S/home/kofta/dev/OpenGL-renderer -B/home/kofta/dev/OpenGL-renderer/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -111,9 +111,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/kofta/dev/OpenGL_renderer/build
+# Folder: /home/kofta/dev/OpenGL-renderer/build
 
-build all: phony OpenGL_renderer
+build all: phony OpenGL-renderer
 
 # =============================================================================
 # Built-in targets
@@ -122,14 +122,14 @@ build all: phony OpenGL_renderer
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/kofta/dev/OpenGL_renderer/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.5/CMakeCCompiler.cmake CMakeFiles/3.29.5/CMakeCXXCompiler.cmake CMakeFiles/3.29.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/kofta/dev/OpenGL-renderer/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.5/CMakeCCompiler.cmake CMakeFiles/3.29.5/CMakeCXXCompiler.cmake CMakeFiles/3.29.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/kofta/dev/OpenGL_renderer/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.5/CMakeCCompiler.cmake CMakeFiles/3.29.5/CMakeCXXCompiler.cmake CMakeFiles/3.29.5/CMakeSystem.cmake: phony
+build /home/kofta/dev/OpenGL-renderer/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.5/CMakeCCompiler.cmake CMakeFiles/3.29.5/CMakeCXXCompiler.cmake CMakeFiles/3.29.5/CMakeSystem.cmake: phony
 
 
 #############################################

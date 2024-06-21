@@ -130,8 +130,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/kofta/dev/OpenGL_renderer/build",
-		"source" : "/home/kofta/dev/OpenGL_renderer"
+		"build" : "/home/kofta/dev/OpenGL-renderer/build",
+		"source" : "/home/kofta/dev/OpenGL-renderer"
 	},
 	"version" : 
 	{

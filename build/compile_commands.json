@@ -1,14 +1,14 @@
 [
 {
-  "directory": "/home/kofta/dev/OpenGL_renderer/build",
-  "command": "/usr/bin/c++ -g -o CMakeFiles/OpenGL_renderer.dir/src/main.cpp.o -c /home/kofta/dev/OpenGL_renderer/src/main.cpp",
-  "file": "/home/kofta/dev/OpenGL_renderer/src/main.cpp",
-  "output": "CMakeFiles/OpenGL_renderer.dir/src/main.cpp.o"
+  "directory": "/home/kofta/dev/OpenGL-renderer/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/OpenGL-renderer.dir/src/main.cpp.o -c /home/kofta/dev/OpenGL-renderer/src/main.cpp",
+  "file": "/home/kofta/dev/OpenGL-renderer/src/main.cpp",
+  "output": "CMakeFiles/OpenGL-renderer.dir/src/main.cpp.o"
 },
 {
-  "directory": "/home/kofta/dev/OpenGL_renderer/build",
-  "command": "/usr/bin/cc -g -o CMakeFiles/OpenGL_renderer.dir/libs/glad/glad.c.o -c /home/kofta/dev/OpenGL_renderer/libs/glad/glad.c",
-  "file": "/home/kofta/dev/OpenGL_renderer/libs/glad/glad.c",
-  "output": "CMakeFiles/OpenGL_renderer.dir/libs/glad/glad.c.o"
+  "directory": "/home/kofta/dev/OpenGL-renderer/build",
+  "command": "/usr/bin/cc -g -o CMakeFiles/OpenGL-renderer.dir/libs/glad/glad.c.o -c /home/kofta/dev/OpenGL-renderer/libs/glad/glad.c",
+  "file": "/home/kofta/dev/OpenGL-renderer/libs/glad/glad.c",
+  "output": "CMakeFiles/OpenGL-renderer.dir/libs/glad/glad.c.o"
 }
 ]
