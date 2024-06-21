@@ -2,7 +2,7 @@
 
 uniform vec2 resolution;
 uniform float time;
-out vec4 theColor;
+out vec4 color;
 
 void main() {
     // Normalized pixel coordinates (from 0 to 1)
@@ -12,5 +12,5 @@ void main() {
     vec3 col = 0.5 + 0.5 * cos(time + uv.xyx + vec3(0, 2, 4));
 
     // Output to screen
-    theColor = vec4(col, 1.0);
+    color = vec4(col, 1.0);
 }
